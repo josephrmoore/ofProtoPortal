@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2AB3EF28-745B-4C8C-9F21-AB15C3F22F93</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PortalLevelEditor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>71CA4C82-C3B0-41E6-A08D-A8B2FDC2B891</key>
+		<string>ssh://github.com/josephrmoore/ofProtoPortal.git</string>
+		<key>EB787433-7AD7-47B9-9502-7D45D511C49F</key>
+		<string>ssh://github.com/underdoeg/ofxGamepad.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PortalLevelEditor.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>71CA4C82-C3B0-41E6-A08D-A8B2FDC2B891</key>
+		<string>../..</string>
+		<key>EB787433-7AD7-47B9-9502-7D45D511C49F</key>
+		<string>../../../../../addons/ofxGamepad</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/josephrmoore/ofProtoPortal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>71CA4C82-C3B0-41E6-A08D-A8B2FDC2B891</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EB787433-7AD7-47B9-9502-7D45D511C49F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxGamepad</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>71CA4C82-C3B0-41E6-A08D-A8B2FDC2B891</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PortalLevelEditor</string>
+		</dict>
+	</array>
+</dict>
+</plist>

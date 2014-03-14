@@ -38,4 +38,5 @@ public:
     Core core;
     float xoff;
     ofxBox2d box;
+    b2Filter collide, invisible;
 };

@@ -14,6 +14,7 @@ Square::Square(){
     type="empty";
     c = ofColor(255);
     pos.set(0, 0);
+    boxed = false;
 }
 
 void Square::tile_size(float tile){
@@ -30,8 +31,6 @@ void Square::change(string _type) {
     }
 }
 void Square::drawer() {
-    //    setStrokeColor(155);
-    //    setStrokeWeight(1);
     if (type == "empty") {
         isPortalable = false;
         isSolid = false;
@@ -91,8 +90,8 @@ void Square::drawer() {
         isSolid = false;
         c = ofColor(255);
     }
-    if(isSolid){
-        
+    if(!isSolid){
+        boxed = false;
     }
     draw();
     ofPushStyle();
@@ -107,7 +106,6 @@ void Square::draw(){
     ofPushStyle();
     ofRotate(getRotation(), 0, 0, 1);
     ofSetColor(c);
-    cout<<getPosition().x<<", "<<getPosition().y<<endl;
     ofRect(ofVec2f(getPosition().x,getPosition().y), getWidth()*2,getHeight()*2);
     ofPopStyle();
 }

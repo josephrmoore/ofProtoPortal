@@ -25,4 +25,6 @@ public:
     bool spawn_set;
     void tile_size(float tile);
     void draw();
+    b2Filter filter;
+    bool boxed;
 };
